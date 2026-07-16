@@ -44,4 +44,7 @@ jobs:
           MY_EMAIL: ${{ secrets.MY_EMAIL }}
           MY_PASSWORD: ${{ secrets.MY_PASSWORD }}
           API_KEY: ${{ secrets.API_KEY }}
+          MY_EMAIL1: ${{ secrets.MY_EMAIL1 }}
+          MY_EMAIL1_PASSWORD: ${{ secrets.MY_EMAIL1_PASSWORD }}
+          YAHOO_EMAIL: ${{ secrets.YAHOO_EMAIL }}
         run: python main.py
