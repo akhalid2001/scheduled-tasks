@@ -62,7 +62,7 @@ if will_rain:
         connection.login(user=my_email, password=password)
         connection.sendmail(from_addr=my_email,
                             to_addrs=yahoo,
-                            msg=f"Subject: Rain Notifier\n\nThe weather shows rain for today, please bring an umbrella☂️\n")
+                            msg=f"Subject: Rain Notifier\n\nThe weather shows rain for today, please bring an umbrella")
 
 
     # client = Client(account_sid, auth_token)
