@@ -34,6 +34,7 @@ parameters ={
     "appid": API_KEY,
     "cnt": COUNT
 }
+print(API_KEY)
 response = requests.get(url=API_ENDPOINT,params=parameters)
 response.raise_for_status() #if there is a problem, we should catch those too.
 print(response.status_code)
